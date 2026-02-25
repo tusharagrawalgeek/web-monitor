@@ -196,7 +196,7 @@ function Dashboard() {
                     {item.summary && (
                       <>
                         <p><strong>Summary:</strong></p>
-                        <pre>{item.summary}</pre>
+                        <pre style={{whiteSpace:'pre-wrap'}}>{item.summary}</pre>
                       </>
                     )}
 
